@@ -23,7 +23,7 @@ You can easily extract the data from this web page, creating an extraction templ
 <div class="video"><a href="watch?v=$code$">$title$</a><img src="$preview$"/></div>
 ```
 
-Just put $variable$ where you want. Now if you run the script against videos.html and template.html, you get the raw data:
+Just put `$variable$` where you want. Now if you run the script against videos.html and template.html, you get the raw data:
 
 ```
 claudio@laptop:~$ ./htmlmatch.py videos.html pattern.html
